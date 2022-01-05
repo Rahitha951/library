@@ -47,4 +47,4 @@ app.get('/',function(req,res){
    });
 });
 
-app.listen(5500);
+app.listen(process.env.PORT || 5002);
